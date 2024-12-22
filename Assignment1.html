@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Login Page</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing: 0;
+      cursor: pointer;
+    }
+    body{
+      background-color: pink;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vb;
+    }
+    .container{
+      border: solid 2px;
+      width:350px;
+      height:400px;
+      color:white;
+      background-color:  rgb(113, 108, 108);
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-color: black;
+    }
+    .field{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin-bottom: 10px;
+     
+    }
+    .field input{
+      border: solid 2px;
+      padding: 10px;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-color: pink;
+    }
+
+    button{
+      background-color: white;
+      border: 2px solid;
+      outline: none;
+      padding: 10px;
+      width: 200px;
+      border-radius: 50px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      margin-top: 20px;
+      margin-left: 2px;
+    
+      border-color:pink;
+      color: black;
+      
+    }
+  </style>
+   
+
+
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="field">
+          <label>User Name</label>
+          <input type="text" placeholder="enter name">
+        </div>
+
+        <div class="field">
+          <label>Email</label>
+          <input type="mail" placeholder="name@gmail.com">
+        </div>
+
+        <div class="field">
+          <label>Password</label>
+          <input type="password" placeholder="******">
+        </div>
+
+        <div class="button">
+          <button class="color">Login</button>
+        </div>
+
+    </div>
+
+  </body>
+</html>
